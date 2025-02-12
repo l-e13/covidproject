@@ -18,12 +18,14 @@ Investigate whether the sentiments of Twitter comments surrounding COVID-19 were
     - Creating bar charts, scatter plots, and other custom visualization aesthetics
   - Data Storage & Export: CSV Files
   - Cloud Computing: Google Colab
+    
 **Packages Installed:**
   - pandas
   - numpy
   - matplotlib
   - seaborn
   - nltk
+    
 **Platforms Used:** Windows & Mac
 
 ## Map of Documentation
