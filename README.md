@@ -14,6 +14,7 @@ Investigate whether the sentiments of Twitter comments surrounding COVID-19 were
     - Sentiment analysis using VADER
       - Assigns a compound sentiment score to each tweet
       - Helps understand public mood about topic
+      - Documentation for the VADER package: https://www.geeksforgeeks.org/python-sentiment-analysis-using-vader/. 
   - Data Visualization: Matplotlib & Seaborn
     - Creating bar charts, scatter plots, and other custom visualization aesthetics
   - Data Storage & Export: CSV Files
