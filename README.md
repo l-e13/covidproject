@@ -4,6 +4,20 @@
 Investigate whether the sentiments of Twitter comments surrounding COVID-19 were more positive or negative the day of or a few weeks after states began implementing major shutdowns on March 15, 2020. 
 
 ## Software and Platform Section
+- Types of Software Used:
+  - Programming Language: Python
+  - Data Processing & Analysis: Pandas
+    - Reading, cleaning, and filtering the dataset
+    - Aggregating tweet counts and sentiment scores
+  - Natural Language Processing (NLP): NLTK (VADER)
+    - Used nltk (Natural Language Toolkit) library 
+    - Sentiment analysis using VADER
+      - Assigns a compound sentiment score to each tweet
+      - Helps understand public mood about topic
+  - Data Visualization: Matplotlib & Seaborn
+    - Creating bar charts, scatter plots, and other custom visualization aesthetics
+  - Data Storage & Export: CSV Files
+  - Cloud Computing: Google Colab
 
 ## Map of Documentation
 ```mermaid
