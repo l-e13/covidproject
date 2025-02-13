@@ -94,7 +94,7 @@ graph TB
 
 ## Instructions for Reproducing Results
 
-1. **Set up Envvironment**
+1. **Set up Environment**
    - install python
    - install required packages (listed above)
 2. **Download Dataset**
