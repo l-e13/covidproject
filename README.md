@@ -114,7 +114,7 @@ graph TB
    - Run each cell to:
        - Filter tweets by US locations
       - Apply VADER sentiment analysis to compute sentiment scores
-     - Save output as df_us_with_sentiment.csv (includes the new VADER score column)
+     - Save output as `df_us_with_sentiment.csv` (includes the new VADER score column)
 5. **Compare Sentiment Scores & Run Statistical Tests**
    - navigate to **SCRIPTS** folder
    - open `Analysis.ipynb`
