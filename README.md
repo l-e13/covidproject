@@ -38,24 +38,34 @@ graph TB
   B[SCRIPTS]
   B1[EDA Pre Analysis.ipynb]
   B2[covid_EDA.ipynb]
+  B3[Analysis.ipynb]
+  B4[filtering for US and appending VADER.ipynb]
   C[DATA]
   C1[Corona_NLP_test.csv]
   C2[Corona_NLP_train.csv]
+  C4[df_us_with_sentiment.csv]
   C3[Data Appendix]
   D[OUTPUT]
   D1[figures]
+  D2[Analysis Figures.pdf]
+  D3[EDA Figures.pdf]
 
   A --> A1
   A --> A2
   A --> B
   B --> B1
   B --> B2
+  B --> B3
+  B --> B4
   A --> C
   C --> C1
   C --> C2
   C --> C3
+  C --> C4
   A --> D
   D --> D1
+  D --> D2
+  D --> D3
 ```
 
 ## Instructions for Reproducing Results
