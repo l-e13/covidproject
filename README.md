@@ -47,7 +47,6 @@ graph TB
   C4[df_us_with_sentiment.csv]
   C3[Data Appendix]
   D[OUTPUT]
-  D1[figures]
   D2[Analysis Figures.pdf]
   D3[EDA Figures.pdf]
 
@@ -64,7 +63,6 @@ graph TB
   C --> C3
   C --> C4
   A --> D
-  D --> D1
   D --> D2
   D --> D3
 
@@ -87,7 +85,6 @@ graph TB
   style C2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style C4 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
-  style D1 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style D2 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
   style D3 fill:#ff9999,stroke:#8b0000,stroke-width:1px,color:black;
 ```
@@ -123,7 +120,6 @@ graph TB
       - Compute average sentiment scores for March 16, 2020, and April 5, 2020
       - Generate output figures comparing sentiment trends
       - Perform an independent t-test to assess statistical significance
-      - Save results in the OUTPUT folder
 
 
 ## References
